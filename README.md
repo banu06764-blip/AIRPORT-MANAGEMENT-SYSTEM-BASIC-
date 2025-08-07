@@ -1,101 +1,73 @@
-✈️ Airport Management System
 
-A GUI-based Airport Management System using Tkinter and MySQL, designed to handle both Admin and Passenger operations through multiple interactive frames.
+✈️ Airport Management System (Basic)
 
+A basic Airport Management System GUI project built using Python's tkinter library and pymysql for MySQL database interaction. This is a beginner-level project that simulates simple airport management functionalities like passenger registration, flight data, and booking management.
 
+🖥️ Features
 
+Passenger registration form
 
+Flight and booking data management
 
----
+Data stored and retrieved using MySQL
 
-🧑‍💼 Admin Panel Features
+Simple and responsive Tkinter GUI
 
-🔐 Secure Login (via password dialog)
+Font and theme customization
 
-🛫 Add/Edit/Delete Plane Details
-
-Plane Model
-
-Landing Time
-
-Stored in MySQL
+Modular design for future upgrades
 
 
-📜 View Plane Details
+📁 Project Structure
 
-Displayed using Treeview
+📦 Airport-Management-System
+┣ 📜 main.py                 # Main application GUI
+┣ 📜 README.md               # Project documentation
+┣ 📂 images/                 # (Optional) Image assets for GUI
+┣ 📂 sql/                    # (Optional) SQL setup scripts
 
+🛠️ Requirements
 
-🧾 View Passenger Details
+Python 3.x
 
-All booking info displayed clearly
+Tkinter (built-in)
 
-
-
-
----
-
-👤 Passenger Panel Features
-
-🎟️ Book a Ticket
-
-Enter Passenger Name and Select Plane
-
-Saves to MySQL
+pymysql
 
 
-❌ Cancel Ticket
+Install dependencies:
 
-Remove from database
+pip install pymysql
+
+⚙️ How to Run
+
+1. Make sure your MySQL server is running.
 
 
-📋 View Your Booking Info
+2. Create a database (e.g., airport_db) and update the connection details in the script.
 
-Shown using Treeview
+
+3. Run the program:
 
 
 
+python main.py
 
----
+💡 Future Enhancements
 
-💾 Backend & Storage
+Admin and staff login system
 
-Database: MySQL
+Real-time flight tracking
 
-Frontend: Tkinter (Multiple Frames & Treeviews)
+Enhanced user input validation
 
-Language: Python
-
-Data Handling: Real-time MySQL interaction
-
+Responsive layout for multiple screen sizes
 
 
----
+🙋‍♂️ Author
 
-🧠 Key Concepts Used
-
-Tkinter Frames for UI navigation
-
-simpledialog.askstring for admin login
-
-Listbox, Treeview for displaying entries
-
-random module for auto ID generation
-
-SQL CRUD operations
-
-
-
+Created by A. Tamilselvan
+Made using Python on desktop 💻
 
 
 ---
-
-🚀 Future Enhancements
-
-Add Search/Filter options in Treeview
-
-Add Seat Selection per Plane
-
-Export data to CSV
-
-Add login system for passengers
