@@ -18,13 +18,6 @@ Font and theme customization
 Modular design for future upgrades
 
 
-📁 Project Structure
-
-📦 Airport-Management-System
-┣ 📜 main.py                 # Main application GUI
-┣ 📜 README.md               # Project documentation
-┣ 📂 images/                 # (Optional) Image assets for GUI
-┣ 📂 sql/                    # (Optional) SQL setup scripts
 
 🛠️ Requirements
 
