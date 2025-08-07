@@ -44,7 +44,7 @@ pip install pymysql
 
 
 
-python main.py
+AIRPORT MANAGEMENT SYSTEM.py
 
 💡 Future Enhancements
 
