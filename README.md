@@ -1,8 +1,7 @@
 ✈️ Airport Management System
 
-A GUI-based Airport Management System using Tkinter and MySQL, built entirely on a mobile phone, designed to handle both Admin and Passenger operations through multiple interactive frames.
+A GUI-based Airport Management System using Tkinter and MySQL, designed to handle both Admin and Passenger operations through multiple interactive frames.
 
-> 🔧 Built with pride by a student using only a smartphone — complete with multi-frame navigation, database integration, and clean layout.
 
 
 
