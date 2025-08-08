@@ -117,7 +117,7 @@ Tamil Selvan
 
 SRM KTR M.Tech Integrated CSE
 
-Built on mobile and desktop
+Built on desktop
 
 Passionate about building real-world apps
 
